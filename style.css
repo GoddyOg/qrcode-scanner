@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -14,7 +16,7 @@ body {
 .container {
     border: none;
     border-radius: 10px;
-    height: 400px;
+    height: 410px;
     width: 250px;
     background-color: #fff;
 }
@@ -32,3 +34,12 @@ img {
     justify-content: center;
     align-items: center;
 } */
+
+h3, p {
+    text-align: center;
+}
+
+.image p {
+    margin: 15px 0 0 0;
+    color: #a7a7a5;
+}
